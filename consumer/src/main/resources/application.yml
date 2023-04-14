@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  application:
+    name: consumer
+  dubbo:
+    registry:
+      address: nacos://x.x.x.x:8848
+    protocol:
+      name: dubbo
+      port: 20880
